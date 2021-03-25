@@ -22,6 +22,8 @@ img {display: block;
     margin-left: auto;
     margin-right: auto;}
 div.desc {font-size: 100%;}
+
+#intro {font-size: 150%}
 #note {text-align: center;
        font-size: 50%;
        color: gray;}
