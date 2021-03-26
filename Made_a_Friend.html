@@ -13,8 +13,9 @@
 
 <body style="font-size: 150%; background-color: black; color: white;">
     <header>
-    <p id="intro">
+    <h1 id="intro">
 	Chronicling my adventures on Azeroth
+    </h1>
         <ul> 
 	    <li><a href="index.html">HOME</a></li>
 	    <li><a href="about.html"> ABOUT</a></li>
@@ -22,15 +23,17 @@
 	    <li><a href="links.html">LINKS</a></li>
 	    <!-- <li>Placeholder Link 5</li> -->
         </ul>
-    </p>
     </header>
     
     <main>
-    <br>
-	<p>
-           <img id="Pepe" src="Images/Made_a_Friend.jpg" alt="Pepe">
-	</p>
-    <ul>
+	<picture>
+	  <source media="(min-width: 480px)"
+	    srcset="Images/Made_a_Friend-1200.jpg 1200w,
+	            Images/Made_a_Friend-800.jpg 800w"
+			sizes="80vw">
+           <img id="Pepe" src="Images/Made_a_Friend-400.jpg" alt="Pepe">
+	</picture>
+	    <ul>
 	<li><a href="Selfie.html">FIRST</a></li>
 	<li><a href="Selfie.html">PREVIOUS</a></li>
 	<li><a href="screenshots.html">GALLERY</a></li>
