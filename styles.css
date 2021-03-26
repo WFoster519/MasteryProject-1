@@ -1,11 +1,9 @@
 @charset "UTF-8"
 /* Styles that are to be applied to every page */
-body {font-size: 150%;
-      background-color: black;
-      color: white;}
-h1 {border-bottom: 1px solid white;
-    text-align: center;
-    font-size: 150%;}
+
+header {border-bottom: 1px solid white;
+        text-align: center;
+        font-size: 150%;}
 
 /* link styles */
 a:link {color: #FFFFFF; } /* An unvisited link appears White */
