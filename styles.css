@@ -18,7 +18,7 @@ img {display: block;
     margin-right: auto;}
 div.desc {font-size: 100%;}
 /* List Item styles */
-ul {float: center;
+li {float: center;
     display: inline; /* Makes the List Items display inline instead of stacking */
     color: white;
     text-align: center;
