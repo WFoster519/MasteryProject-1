@@ -1,27 +1,29 @@
 @charset "UTF-8"
-/* html style */
-html {font-size: 150%;
-      background-color: black;
+/* Styles that are to be applied to every page */
+html {background-color: black;
       color: white;}
-/* link styles */
-a:link, a:visited { color: #FF0000;}
-a:focus, a:hover, a:active { color: #0000FF; }
-header {text-align: center;}
-/* List Item styles */
-li {float: center;
-    display: inline; /* Makes the List Items display inline instead of stacking */
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    border: solid white;}
 h1 {border-bottom: 1px solid white;
     text-align: center;
     font-size: 150%;}
+
+/* link styles */
+a:link {color: #FFFFFF; } /* An unvisited link appears White */
+a:visited {color: #FFFFFF;} /* A visted link appears White */
+a:hover {color: #FF0000;} /* Hovering over the link changes text to Red */
+header {text-align: center;}
+
 p {text-indent: 30px;}
 img {display: block;
     margin-left: auto;
     margin-right: auto;}
 div.desc {font-size: 100%;}
+/* List Item styles */
+ul {float: center;
+    display: inline; /* Makes the List Items display inline instead of stacking */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    border: solid white;}
 
 #intro {font-size: 150%}
 #note {text-align: center;
