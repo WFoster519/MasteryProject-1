@@ -26,10 +26,13 @@
     </header>
     
     <main>
-    <br>
-	<p>
-           <img id="The_Crimson_Expanse" src="Images/The_Crimson_Expanse.jpg" alt="Deepholm">
-	</p>
+	<picture>
+	  <source media="(min-width: 480px)"
+	    srcset="images/The_Crimson_Expanse-1200.jpg 1200w,
+	            images/The_Crimson_Expanse-800.jpg 800w"
+			sizes="80vw">
+	  <img id="The_Crimson_Expanse" src="Images/The_Crimson_Expanse.jpg" alt="Deepholm">
+	</picture>
     <ul>
 	<li><a href="Selfie.html">FIRST</a></li>
 	<li><a href="The_Quaking_Fields.html">PREVIOUS</a></li>
