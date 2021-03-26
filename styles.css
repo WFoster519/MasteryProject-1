@@ -1,6 +1,6 @@
 @charset "UTF-8"
 /* Styles that are to be applied to every page */
-html {font-size: 150%;
+body {font-size: 150%;
       background-color: black;
       color: white;}
 h1 {border-bottom: 1px solid white;
