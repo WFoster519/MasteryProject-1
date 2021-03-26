@@ -13,7 +13,7 @@
 
 <body style="font-size: 150%; background-color: black; color: white;">
     <header>
-    <p id="intro">
+    <h1 id="intro">
 	Chronicling my adventures on Azeroth
         <ul> 
 	    <li><a href="index.html">HOME</a></li>
@@ -22,14 +22,17 @@
 	    <li><a href="links.html">LINKS</a></li>
 	    <!-- <li>Placeholder Link 5</li> -->
         </ul>
-    </p>
+    </h1>
     </header>
     
     <main>
-    <br>
-	<p>
-           <img id="Fallen_Avatar" src="Images/Fallen_Avatar.jpg" alt="Tomb_of_Sargeras">
-	</p>
+	<picture>
+	  <source media="(min-width: 480px)"
+	    srcset="Images/Fallen_Avatar-1200.jpg 1200w,
+	            Images/Fallen_Avatar-800.jpg 800w"
+			sizes="80vw">
+           <img id="Fallen_Avatar" src="Images/Fallen_Avatar-400.jpg" alt="Tomb_of_Sargeras">
+	</picture>
     <ul>
 	<li><a href="Selfie.html">FIRST</a></li>
 	<li><a href="Dragon_Pool.html">PREVIOUS</a></li>
