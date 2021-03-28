@@ -12,6 +12,7 @@ a:hover {color: #FF0000;} /* Hovering over the link changes text to Red */
 header {text-align: center;}
 
 p {text-indent: 30px;}
+p.about {font-size: 115%;}
 dl {text-indent: 60px;}
 img {display: block;
     margin-left: auto;
